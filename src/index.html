@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <script type="text/javascript" src="./main.js"></script>
+    <form>
+      <fieldset class="addd">
+        <legend>Personal information</legend>
+        <div class="form-field">
+          Surname
+          <input type="text" name="surname">
+        </div>
+
+        <div class="form-field">
+          Name
+          <input type="text" name="name">
+        </div>
+
+        <div class="form-field">
+          How old are you?
+          <input type="number" name="age">
+        </div>
+
+        <div class="form-field">
+          Full date of birth:
+          <input type="date" name="date of birth">
+        </div>
+
+        <div class="form-field">
+          I accept the term of agreement
+          <input type="checkbox" name="terms">
+        </div>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="addd">
+        <legend>Registration</legend>
+        <div class="form-field">
+          E-mail
+          <input type="text" name="e-mail">
+        </div>
+
+        <div class="form-field">
+          Password
+          <input type="text" name="password">
+        </div>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="addd">
+        <legend>An interesting fact about you!</legend>
+        <div class="form-field">
+          Do you love cats?
+          <input type="radio" name="answer">
+          Yes
+        </div>
+
+        <div>
+          <input type="radio" name="answer">
+          No
+        </div>
+
+        <div class="form-field">
+          What is your favorite color?
+          <input type="color" name="fav color">
+        </div>
+
+        <div class="form-field">
+          What time do you go to bed?
+          <input type="time" name="go to bed">
+        </div>
+
+        <div class="form-field">
+          What are you favorite brand of cars?
+          <select name="brand" multiple>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          How do you rate our work?
+          <input type="range">
+        </div>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="addd">
+        <legend>Additional info:</legend>
+        <div class="form-field">
+          Comments:
+          <textarea name="feedback"></textarea>
+        </div>
+        <div class="form-field">
+          Would you recommend us?
+          <select name="answ">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="i dont know">I dont know</option>
+          </select>
+        </div>
+      </fieldset>
+    </form>
+    <button class="addd" type="submit">Submit</button>
+  </body>
+</html>
